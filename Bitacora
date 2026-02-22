@@ -1,0 +1,24 @@
+******¿Quién es el cliente?
+→ El cliente es el movimiento social “Conduciendo por un cambio”, cuyo objetivo es promover la cortesía vial y mejorar la fluidez del tránsito mediante el uso de soluciones tecnológicas.
+
+******¿Qué necesita resolver?
+→ Necesita reducir la congestión y los tiempos de espera en cruces conflictivos, incentivando a los conductores a ceder el paso de forma voluntaria mediante un sistema de recompensas.
+
+******¿Qué funcionalidades considera más importantes?
+→ Notificaciones en tiempo real para solicitar cortesía vial.
+→ Asignación de puntos a conductores que cedan el paso.
+→ Consulta del balance de puntos del usuario.
+→ Visualización de comercios y productos canjeables.
+→ Diferenciación visual de productos según puntos disponibles.
+→ Generación de códigos QR para el canje de productos.
+
+
+******Requerimientos funcionales
+
+
+
+******Requerimientos no funcionales
+
+******Tecnica usadad para los decidir que entra en cada sprint
+
+ 
