@@ -14,7 +14,7 @@
 
 
 ******Requerimientos funcionales
-1. El sistema debe detectar cuando un conductor lleva más de 2 minutos detenido en un Alto.
+1. El sistema debe detectar cuando un conductor permanece detenido por más de 120 segundos en un cruce señalizado como Alto.
 2. El sistema debe notificar a conductores cercanos.
 3. El sistema debe asignar puntos al conductor que cede el paso.
 4. El sistema debe mostrar puntos acumulados.
@@ -22,16 +22,17 @@
 6. El sistema debe mostrar puntos disponibles.
 7. El sistema debe mostrar lista de comercios afiliados.
 8. El sistema debe generar código QR para redimir productos.
+9. El sistema debe mostrar los productos en color verde cuando puedan ser canjeados, en color naranja cuando falte menos del 50% de puntos y en rojo cuando no estén disponibles.
 
 
 ******Requerimientos no funcionales
 1. Las notificaciones deben enviarse en menos de 5 segundos.
 2. La aplicación debe estar disponible 99% del tiempo.
-3. El sistema debe soportar al menos 5,000 usuarios concurrentes sin degradar el tiempo de respuesta por encima de 3 segundos
+3. El sistema debe soportar al menos 5,000 usuarios concurrentes sin degradar el tiempo de respuesta por encima de 3 segundos.
 4. El sistema debe garantizar que los puntos acumulados no se pierdan ante fallos del sistema o reinicios inesperados.
 5. En caso de caída del sistema, el servicio debe restablecerse en un tiempo máximo de 10 minutos.
 6. El sistema debe registrar en logs todas las transacciones de puntos realizadas por los usuarios.
 
-******Tecnica usadad para los decidir que entra en cada sprint
+******Técnica usada para decidir qué entra en cada sprint
 
- Gira Key SCRUM
+ Se aplicó priorización basada en valor de negocio y dependencia funcional, implementando primero el núcleo del sistema (MVP) y posteriormente los módulos complementarios.
