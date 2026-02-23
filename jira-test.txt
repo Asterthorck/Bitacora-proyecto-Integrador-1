@@ -1,2 +1,3 @@
 jira-test.txt
  
+git commit -m "SCRUM-11 Para el Profesor (mostrar commit hecho en github en una historia)"
